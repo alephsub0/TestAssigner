@@ -2,7 +2,7 @@
  TestAssigner es un programa diseñado para ayudar a asignar tareas o exámenes personalizados en la herramienta Moodle. Escrito en C# y con licencia GNU GPLv3, TestAssigner permite tomar, al menos, dos exámenes y personalizar los exámenes para cada estudiante dependiendo de una entrada de datos por CSV generado por la plataforma virtual. El resultado es una hoja de excel con el resumen de la asignación y un archivo comprimido listo para subir al Moodle, de forma que cada estudiante no sabe qué tipo de examen le toca a cada alumno.
  
 ## ¿Cómo usar TestAssigner?
- 1. Descargar la hoja de calificaciones de la plataforma virtual
+ 1. Descargar la hoja de calificaciones de la plataforma Moodle
  1. Asignar un nombre al examen
  1. Seleccionar el archivo CVS (hoja de calificaciones)
  1. Elegir un tipo de examen y la respectiva carpeta donde se encontrarán
@@ -41,5 +41,5 @@ info@alephsub0.org
 
 ## Enlaces importantes
 Más información de cómo usar TestAssigner: https://youtu.be/hFkWlS0eXYI/ \
-Lee el artículo sobre la asignación personalizada: https://alephsub0.org/divulgacion/andres-merino/asignar-tareas-y-examenes-personalizadas-en-moodle/ \
+Lee el artículo sobre la asignación personalizada: https://go.alephsub0.org/TestAssigner-doc \
 Conoce más sobre el proyecto alephsub0: https://www.alephsub0.org/about/
