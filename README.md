@@ -41,5 +41,5 @@ info@alephsub0.org
 
 ## Enlaces importantes
 Más información de cómo usar TestAssigner: https://youtu.be/hFkWlS0eXYI/ \
-Lee el artículo sobre la asignación personalizada: https://go.alephsub0.org/TestAssigner-doc \
+Lee el artículo sobre la asignación personalizada: https://go.alephsub0.org/TestAssigner \
 Conoce más sobre el proyecto alephsub0: https://www.alephsub0.org/about/
