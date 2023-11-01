@@ -41,5 +41,5 @@ info@alephsub0.org
 
 ## Enlaces importantes
 Más información de cómo usar TestAssigner: https://youtu.be/hFkWlS0eXYI/ \
-Lee el artículo sobre la asignación personalizada: https://www.alephsub0.org/divulgacion/asignar-tareas-y-examenes-personalizadas-en-moodle/ \
+Lee el artículo sobre la asignación personalizada: https://alephsub0.org/divulgacion/andres-merino/asignar-tareas-y-examenes-personalizadas-en-moodle/ \
 Conoce más sobre el proyecto alephsub0: https://www.alephsub0.org/about/
