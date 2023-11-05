@@ -1,0 +1,39 @@
+*** CÓMO GENERAR UN INSTALADOR PARA APLICACIONES DE C# EN VISUAL STUDIO ***
+
+Para generar un instalador en Visual Studio, hay que tener en cuenta las siguientes consideraciones:
+
+1. Uno debe tener instalado la extensión de instalación para VS19. Verificar la instalación yendo a 
+	Extensiones > Administrador de Extensiones > Online > Visual Studio MarketPlace
+Y buscar por "installer". Depués descargar e instalar el "Microsoft Visual Studio Installer Projects".
+
+2. Asegurarse de no tener problemas para la compilación.
+	2.1. Dentro del proyecto ir a la carpeta "bin" dentro de la aplicación y borrar la carpeta "Release"
+	2.2 Cerrar el Visual Studio y borrar los archivos de la carpeta temporal (ctrl+R > %temp%)
+
+3. Abir el Visual Studio y reconstruir (rebuild) la aplicación creada. 
+
+4. Clic derecho en la solución > Agregar > Nuevo proyecto... > Setup Project > Establecer el nombre > Aceptar
+
+5. En el archivo File System que se abrirá automáticamente, abir la carpeta llamada "application folder" y agregar el ícono de la aplicación (clic derecho, add, file, escoger el ícono). También agregar todos los archivos importantes como los README.
+
+6. Clic derecho > add > Resultados del projecto (Project Output) > Resultado Principal (Primary Output) > Aceptar 	// Esto Agregará todas las dependencias al proyecto.
+	6.1. Si se desea editar un proyecto anterior, dar clic derecho al Primary Output, eliminarlo y repetir el paso 6.
+	6.2. Borrar cualquier shortcut dentro de "User's Desktop" o "User's Programs Menu".
+
+7. Dirigirse al explorador de soluciones, dar clic en el Setup y ver la ventana de propiedades. 
+	7.1. Agregar un ícono a AddRemoveProgramsIcon
+		Propiedades > Icon > (Browse...) > Browse > Application Folder > Aceptar
+	7.2. Añadir el nombre de la aplicación a los campos Author, Manufacturer, Product name, Title.	// Así cuando se instale el programa, se guardará bajo el nombre de la aplicación dentro de los Archivos de Programa
+	7.3. DetecNewerInstallerVersion y RemovePreviousVersions deben tener el valor de true.
+	7.4. Actualizar la versión del programa. También se devería actualizar la versión en la configuración de la aplicación, en el manifesto y en el archivo AssemblyInfo (investigar más).
+
+8. (File System) Clic derecho al resultado principal > Create shortcut to Resultado Principal from Aplicación (active) > Cambiar el nombre del Acceso Rápido (Nombre de la App) > Arrastrar a la carpeta "User's Desktop"
+	8.1. Cambiar el ícono del Acceso Rápido desde las propiedades del Shortcut:
+		Propiedades > Icon > (Browse...) > Browse > Application Folder > Aceptar 
+	8.2 Seguir el mismo procedimiento para añadir un acceso rápido al menú de programas del usuario.
+
+9. Clic derecho en Setup > Recompilar		// Aquí se generará el instalador
+	9.1 El instalador se lo puede encontrar en la carpeta anterior a la solución del projecto, en la carpeta con el nombre del Setup project/debug Se hallará un archivo con el nombre del Setup project con extensión .msi
+	9.2 No debe salir ningun erro al recompilar. En el caso de que saliera algún error, quitar el Setup Project desde el explorador de soluciones, borrarlo manualmente desde el explorador de Windows y repetir el proceso desde el Paso 2.
+
+10. Ya se puede distribuir el instalador generado. Se recomienda cambiar el nombre del instalador, y borrar cualquier versión anterior del programa.
