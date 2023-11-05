@@ -269,7 +269,7 @@ namespace TestAssigner
 
         private void másNformaciónToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://www.alephsub0.org/divulgacion/asignar-tareas-y-examenes-personalizadas-en-moodle/");
+            System.Diagnostics.Process.Start("https://go.alephsub0.org/TestAssigner");
         }
 
         private void CBTipoArchivo_SelectedIndexChanged(object sender, EventArgs e)

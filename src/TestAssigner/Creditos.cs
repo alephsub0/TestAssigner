@@ -28,7 +28,12 @@ namespace TestAssigner
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             LLAleph.LinkVisited = true;
-            System.Diagnostics.Process.Start("https://www.alephsub0.org/about/");
+            System.Diagnostics.Process.Start("https://go.alephsub0.org/acerca-de");
+        }
+
+        private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/alephsub0/TestAssigner/blob/master/LICENSE");
         }
     }
 }
