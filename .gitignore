@@ -44,8 +44,6 @@ artifacts/
 *DS_Store
 *.sln.ide
 .vs/
-bin/
-obj/
 
 # User Ignores
 src/SetupForTestAssigner/Debug/
