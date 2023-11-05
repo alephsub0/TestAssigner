@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30011.22
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAssigner", "TestAssigner.csproj", "{BDBA8711-9E6F-436A-8722-9141904418D6}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "..\Setup1\Setup1.vdproj", "{BF557DEB-5442-45C0-A80A-CD8455620872}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +15,6 @@ Global
 		{BDBA8711-9E6F-436A-8722-9141904418D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDBA8711-9E6F-436A-8722-9141904418D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDBA8711-9E6F-436A-8722-9141904418D6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BF557DEB-5442-45C0-A80A-CD8455620872}.Debug|Any CPU.ActiveCfg = Debug
-		{BF557DEB-5442-45C0-A80A-CD8455620872}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
