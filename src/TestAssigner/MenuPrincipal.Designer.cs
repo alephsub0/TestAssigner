@@ -49,6 +49,7 @@
             this.lbPath2 = new System.Windows.Forms.Label();
             this.btnArchivo = new System.Windows.Forms.Button();
             this.GBNombre = new System.Windows.Forms.GroupBox();
+            this.TBExamen = new TestAssigner.PlaceHolderTextBox();
             this.GBExcel = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lbPath3 = new System.Windows.Forms.Label();
@@ -56,7 +57,6 @@
             this.FDExcel = new System.Windows.Forms.OpenFileDialog();
             this.CBTitle = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.TBExamen = new TestAssigner.PlaceHolderTextBox();
             this.menuStrip1.SuspendLayout();
             this.GBCSV.SuspendLayout();
             this.GBPDF.SuspendLayout();
@@ -96,7 +96,7 @@
             this.MenuAyuda.Name = "MenuAyuda";
             this.MenuAyuda.ShortcutKeyDisplayString = "Ctrl + F1";
             this.MenuAyuda.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F1)));
-            this.MenuAyuda.Size = new System.Drawing.Size(194, 22);
+            this.MenuAyuda.Size = new System.Drawing.Size(198, 26);
             this.MenuAyuda.Text = "Ver ayuda";
             this.MenuAyuda.Click += new System.EventHandler(this.MenuAyuda_Click);
             // 
@@ -104,14 +104,14 @@
             // 
             this.másNformaciónToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("másNformaciónToolStripMenuItem.Image")));
             this.másNformaciónToolStripMenuItem.Name = "másNformaciónToolStripMenuItem";
-            this.másNformaciónToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.másNformaciónToolStripMenuItem.Size = new System.Drawing.Size(198, 26);
             this.másNformaciónToolStripMenuItem.Text = "Más Información";
             this.másNformaciónToolStripMenuItem.Click += new System.EventHandler(this.másNformaciónToolStripMenuItem_Click);
             // 
             // MenuCreditos
             // 
             this.MenuCreditos.Name = "MenuCreditos";
-            this.MenuCreditos.Size = new System.Drawing.Size(194, 22);
+            this.MenuCreditos.Size = new System.Drawing.Size(198, 26);
             this.MenuCreditos.Text = "Acerca de TestAssigner";
             this.MenuCreditos.Click += new System.EventHandler(this.MenuCreditos_Click);
             // 
@@ -308,6 +308,19 @@
             this.GBNombre.TabStop = false;
             this.GBNombre.Text = "Nombre del examen";
             // 
+            // TBExamen
+            // 
+            this.TBExamen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Italic);
+            this.TBExamen.ForeColor = System.Drawing.Color.Gray;
+            this.TBExamen.Location = new System.Drawing.Point(34, 39);
+            this.TBExamen.Margin = new System.Windows.Forms.Padding(2);
+            this.TBExamen.Name = "TBExamen";
+            this.TBExamen.PlaceHolderText = "Ingrese el nombre del examen";
+            this.TBExamen.Size = new System.Drawing.Size(301, 23);
+            this.TBExamen.TabIndex = 1;
+            this.TBExamen.TabStop = false;
+            this.TBExamen.Text = "Ingrese el nombre del examen";
+            // 
             // GBExcel
             // 
             this.GBExcel.Controls.Add(this.label1);
@@ -372,19 +385,6 @@
             this.CBTitle.TabIndex = 16;
             this.CBTitle.Text = "Tipo de asignación";
             this.CBTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // TBExamen
-            // 
-            this.TBExamen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Italic);
-            this.TBExamen.ForeColor = System.Drawing.Color.Gray;
-            this.TBExamen.Location = new System.Drawing.Point(34, 39);
-            this.TBExamen.Margin = new System.Windows.Forms.Padding(2);
-            this.TBExamen.Name = "TBExamen";
-            this.TBExamen.PlaceHolderText = "Ingrese el nombre del examen";
-            this.TBExamen.Size = new System.Drawing.Size(301, 23);
-            this.TBExamen.TabIndex = 1;
-            this.TBExamen.TabStop = false;
-            this.TBExamen.Text = "Ingrese el nombre del examen";
             // 
             // FormMenuPrincipal
             // 
