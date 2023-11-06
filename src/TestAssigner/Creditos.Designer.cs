@@ -154,20 +154,20 @@
             this.groupBox2.Size = new System.Drawing.Size(300, 94);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Licencia (GPL-3.0)";
+            this.groupBox2.Text = "Licencia (MIT)";
             // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.LinkArea = new System.Windows.Forms.LinkArea(89, 18);
+            this.linkLabel1.LinkArea = new System.Windows.Forms.LinkArea(86, 17);
             this.linkLabel1.Location = new System.Drawing.Point(20, 32);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(260, 46);
             this.linkLabel1.TabIndex = 0;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "La aplicación TestAssigner emplea la licencia\r\nGPL-3.0. Para más información cons" +
-    "ulte el\r\nsiguiente archivo.";
+            this.linkLabel1.Text = "La aplicación TestAssigner emplea la licencia\r\nMIT. Para más información consulte" +
+    " el\r\nsiguiente archivo.";
             this.linkLabel1.UseCompatibleTextRendering = true;
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked_1);
             // 
