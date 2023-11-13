@@ -59,7 +59,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre el Proyecto
 
-TestAssigner es un programa diseñado para ayudar a asignar tareas o exámenes personalizados en la herramienta Moodle. Escrito en C# y con licencia GNU GPLv3, TestAssigner permite tomar, al menos, dos exámenes y personalizar los exámenes para cada estudiante dependiendo de una entrada de datos por CSV generado por la plataforma virtual. El resultado es una hoja de excel con el resumen de la asignación y un archivo comprimido listo para subir al Moodle, de forma que cada estudiante no sabe qué tipo de examen le toca a cada alumno..
+TestAssigner es un programa diseñado para ayudar a asignar tareas o exámenes personalizados en la herramienta Moodle. Escrito en C# y con licencia GNU GPLv3, TestAssigner permite tomar, al menos, dos exámenes y personalizar los exámenes para cada estudiante dependiendo de una entrada de datos por CSV generado por la plataforma virtual. El resultado es una hoja de excel con el resumen de la asignación y un archivo comprimido listo para subir al Moodle, de forma que cada estudiante no sabe qué tipo de examen le toca a cada alumno.
 
 ### Construido con
 
