@@ -71,7 +71,7 @@ TestAssigner es un programa diseñado para ayudar a asignar tareas o exámenes p
 
 <!-- GETTING STARTED -->
 ## ¿Cómo instalar TestAssigner?
-En la carpeta [installer](https://github.com/alephsub0/TestAssigner/tree/main/installer), se encontrará un archivo con la extensión `.msi`. Al ejecutarlo, se abrirá un Wizard de instalación. Seguir los pasos de configuración y el programa estará listo para su ejecución. **Se copiará un acceso directo en el escritorio**.
+En la carpeta [installer](https://github.com/alephsub0/TestAssigner/tree/master/installer), se encontrará un archivo con la extensión `.msi`. Al ejecutarlo, se abrirá un Wizard de instalación. Seguir los pasos de configuración y el programa estará listo para su ejecución. **Se copiará un acceso directo en el escritorio**.
 
 [![Installer Screenshot][installer-screenshot]](https://github.com/alephsub0/TestAssigner/tree/main/installer)
 
