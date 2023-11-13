@@ -131,7 +131,7 @@ info@alephsub0.org\
 <!-- PROYECTOS DE ALEPHSUB0 -->
 ## Proyectos de AlephSub0
 
-* [PDF Splitter](https://github.com/alephsub0/TestAssigner)
+* [PDF Splitter](https://github.com/alephsub0/PDF-Splitter)
 * [TestAssigner](https://github.com/alephsub0/TestAssigner)
 
 <!-- MARKDOWN LINKS & IMAGES -->
